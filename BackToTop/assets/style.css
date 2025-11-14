@@ -1,0 +1,23 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+    line-height: 1.5;
+    font-size: 18px;
+
+    /* A supprimer */
+    height: 3000px;
+}
+
+.backToTop{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: none;
+}
+
+.backToTop--show{
+    display: inline;
+}
