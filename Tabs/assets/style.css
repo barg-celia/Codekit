@@ -1,0 +1,31 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.tab__nav{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    margin: 20px;
+}
+.tab__el a{
+    color: black;
+}
+.tab__el--active a{
+    background-color: rgb(195, 138, 198);
+}
+
+.tab__content{
+    display: none;
+}
+
+.tab__content--active{
+    display: block;
+}
