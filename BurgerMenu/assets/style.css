@@ -27,6 +27,7 @@ body{
     }
     .menu--open .menu__liste{
         display: block;
+        background-color: rgb(217, 137, 227);
     }
 
 }
