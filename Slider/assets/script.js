@@ -17,7 +17,7 @@ function nextSlide(){
         const elFirst = elShow.parentElement.firstElementChild;
         elFirst.classList.add("slider__el--show");
     }
-};
+}
 
 function prevSlide(){
     const elShow = document.querySelector(".slider__el--show");
@@ -31,3 +31,11 @@ function prevSlide(){
         elLast.classList.add("slider__el--show");
     }
 }
+
+document.addEventListener("keydown", function(event){
+    if(event.code == "ArrowLeft"){
+        prevSlide();
+    }else if (event.code == "ArrowRight"){
+        nextSlide();
+    }
+});
