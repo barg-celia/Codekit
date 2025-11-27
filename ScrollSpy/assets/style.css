@@ -1,0 +1,25 @@
+html{
+   scroll-behavior: smooth;
+}
+body{
+   margin: 0;
+   font-family: sans-serif;
+   line-height: 1.4;
+}
+.container{
+   width: 80%;
+   margin: 0 auto;
+}
+.section{
+   height: 600px;
+   margin: 50px 0;
+}
+.menu{
+   position: fixed;
+   left: 10px;
+   top: 10px;
+   scroll-target-group: auto;
+}
+.menu__el a:target-current{
+   color: rgb(192, 20, 149);
+}
