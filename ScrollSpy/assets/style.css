@@ -18,8 +18,7 @@ body{
    position: fixed;
    left: 10px;
    top: 10px;
-   scroll-target-group: auto;
 }
-.menu__el a:target-current{
+.menu__el--active a{
    color: rgb(192, 20, 149);
 }
